@@ -1,0 +1,3 @@
+Solve each question, then check all three substantive choices for an exact match. A plausible but incorrect option is not a match. The option labeled None of the above is correct whenever the correct answer is missing, even if another option is close. If a substantive option is correct, choose it instead.
+Examples: 2+3 with choices 1: 4, 2: 6, 3: None of the above, 4: 7 has answer 3. 2+3 with choices 1: None of the above, 2: 5, 3: 6, 4: 7 has answer 2.
+Return only a JSON object mapping every question ID to its chosen option number as an integer.
