@@ -1,0 +1,1 @@
+Answer each question by selecting the best option number. One option says None of the above; choose it only if each of the other three options is incorrect. Return a JSON object mapping each question ID to its integer option number.

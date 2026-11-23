@@ -1,0 +1,102 @@
+[
+  {
+    "id": "C01",
+    "question": "If A has singular value 5 with right singular vector v and corresponding left singular vector u, what is Av?",
+    "options": {
+      "1": "u",
+      "2": "5u",
+      "3": "5v",
+      "4": "0"
+    }
+  },
+  {
+    "id": "C02",
+    "question": "A centered data matrix has squared Frobenius norm 80. An orthonormal projection retains squared norm 53. What is its squared reconstruction error?",
+    "options": {
+      "1": "27",
+      "2": "53",
+      "3": "80",
+      "4": "133"
+    }
+  },
+  {
+    "id": "C03",
+    "question": "Which action avoids leakage when using standardized features for a test set?",
+    "options": {
+      "1": "Fit the scaler on all data before splitting",
+      "2": "Fit a separate scaler on the test data",
+      "3": "Fit the scaler on training data and apply it to test data",
+      "4": "Choose scaling using test accuracy"
+    }
+  },
+  {
+    "id": "C04",
+    "question": "A convex function satisfies J(a)=2 and J(b)=14. What upper bound does convexity guarantee for J(0.25a+0.75b)?",
+    "options": {
+      "1": "5",
+      "2": "8",
+      "3": "11",
+      "4": "14"
+    }
+  },
+  {
+    "id": "C05",
+    "question": "In gradient descent, how are parameters w updated for learning rate η and gradient g?",
+    "options": {
+      "1": "w + ηg",
+      "2": "w − ηg",
+      "3": "η − wg",
+      "4": "w / g"
+    }
+  },
+  {
+    "id": "C06",
+    "question": "A network uses z=wx and s=ReLU(z), with loss L=0.5(s−y)^2. For w=2, x=2, y=1, what is dL/dw?",
+    "options": {
+      "1": "3",
+      "2": "4",
+      "3": "6",
+      "4": "12"
+    }
+  },
+  {
+    "id": "C07",
+    "question": "How wide is the receptive field of two consecutive 3-wide convolutions with stride 1 and no dilation?",
+    "options": {
+      "1": "3",
+      "2": "4",
+      "3": "5",
+      "4": "6"
+    }
+  },
+  {
+    "id": "C08",
+    "question": "For causal attention, which key positions may query position i attend to?",
+    "options": {
+      "1": "Only positions j > i",
+      "2": "All positions, including future positions",
+      "3": "Only positions j < i",
+      "4": "Positions j ≤ i"
+    }
+  },
+  {
+    "id": "C09",
+    "question": "Token probabilities are 0.5, 0.3, 0.2. With top-2 sampling, what is the renormalized probability of the most likely token?",
+    "options": {
+      "1": "0.5",
+      "2": "0.625",
+      "3": "0.8",
+      "4": "1.0"
+    }
+  },
+  {
+    "id": "C10",
+    "question": "In a VAE, what does the KL term typically encourage?",
+    "options": {
+      "1": "The latent distribution to stay close to a prior",
+      "2": "All input images to be identical",
+      "3": "The decoder to produce exact copies for every latent",
+      "4": "The latent dimension to become zero"
+    }
+  }
+]
