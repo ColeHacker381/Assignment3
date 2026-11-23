@@ -13,3 +13,7 @@ These measurements use the released examples only. The two batches share underly
 ## Supplemental evaluation
 
 A self-authored ten-question course-review set and its challenge variant are recorded in `evaluations/course-review/`. The questions were written after reviewing the released examples and course material, and are not a blinded or representative hidden-exam sample. The standard baseline scored 9/10 on this set. The challenge baseline scored 6/10 and missed all three questions where None was correct. A revised 46-token challenge prompt also scored 6/10 on this set and 6/10 on the released challenge batch, with no improvement in the three supplemental None cases. The current prompts remain unchanged pending stronger evidence.
+
+## Challenge prompt comparison
+
+Two additional challenge drafts were tested on the released and supplemental batches using the pinned local settings. A derive-first prompt scored 7/10 and 6/10 respectively, compared with 6/10 and 6/10 for the earlier challenge baseline. A prompt with a simple None-of-the-above example also scored 7/10 and 6/10. Both new drafts answered zero of the six questions whose correct answer was None correctly. The 74-token derive-first draft is the provisional challenge prompt because it matched the example-based draft with fewer tokens. This choice rests on two small development batches and should not be interpreted as a measured hidden-set improvement. Prompt texts and per-question results are in `experiments/challenge-selection/`.
