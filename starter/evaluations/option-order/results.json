@@ -1,0 +1,79 @@
+{
+  "prompt_tokens": 191,
+  "correct": 8,
+  "total": 10,
+  "answers": {
+    "P01": 2,
+    "P02": 3,
+    "P03": 1,
+    "P04": 1,
+    "P05": 2,
+    "P06": 4,
+    "P07": 4,
+    "P08": 1,
+    "P09": 2,
+    "P10": 1
+  },
+  "comparison": [
+    {
+      "id": "P01",
+      "expected": 2,
+      "predicted": 2,
+      "match": true
+    },
+    {
+      "id": "P02",
+      "expected": 3,
+      "predicted": 3,
+      "match": true
+    },
+    {
+      "id": "P03",
+      "expected": 1,
+      "predicted": 1,
+      "match": true
+    },
+    {
+      "id": "P04",
+      "expected": 1,
+      "predicted": 1,
+      "match": true
+    },
+    {
+      "id": "P05",
+      "expected": 2,
+      "predicted": 2,
+      "match": true
+    },
+    {
+      "id": "P06",
+      "expected": 3,
+      "predicted": 4,
+      "match": false
+    },
+    {
+      "id": "P07",
+      "expected": 4,
+      "predicted": 4,
+      "match": true
+    },
+    {
+      "id": "P08",
+      "expected": 1,
+      "predicted": 1,
+      "match": true
+    },
+    {
+      "id": "P09",
+      "expected": 2,
+      "predicted": 2,
+      "match": true
+    },
+    {
+      "id": "P10",
+      "expected": 4,
+      "predicted": 1,
+      "match": false
+    }
+  ]
+}
