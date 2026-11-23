@@ -1,0 +1,3 @@
+Answer each multiple-choice question by selecting the single best option. Return the option number for each supplied question ID as JSON.
+
+Checks: argmax is the input with the largest value. For SVD, A v_i = sigma_i u_i. PCA reconstruction error is total squared norm minus projected squared norm. Convexity: J(a u + (1-a) v) is at most a J(u) + (1-a) J(v). Causal attention masks future key positions. For a chain of stride-1 convolutions, each width-3 kernel adds 2 to receptive-field width. Top-k sampling renormalizes retained probabilities. In backpropagation multiply local derivatives using the chain rule.
