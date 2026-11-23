@@ -1,0 +1,102 @@
+[
+  {
+    "id": "P01",
+    "question": "A vector x has squared length 25. Its orthogonal projection onto a subspace has squared length 16. What is the squared length of the residual?",
+    "options": {
+      "1": "41",
+      "2": "9",
+      "3": "16",
+      "4": "None of the above"
+    }
+  },
+  {
+    "id": "P02",
+    "question": "When the input dimension becomes large and training data are fixed, what is a typical challenge for nearest-neighbor methods?",
+    "options": {
+      "1": "Training inputs become uniformly distributed automatically",
+      "2": "The number of labels must decrease",
+      "3": "None of the above",
+      "4": "Every class has the same probability"
+    }
+  },
+  {
+    "id": "P03",
+    "question": "For a differentiable function J, gradient descent at w uses w_new = w - eta * grad J(w). If eta is positive and grad J(w) is zero, what is w_new?",
+    "options": {
+      "1": "w",
+      "2": "eta",
+      "3": "None of the above",
+      "4": "0"
+    }
+  },
+  {
+    "id": "P04",
+    "question": "What does L2 regularization commonly add to a training objective?",
+    "options": {
+      "1": "A penalty proportional to the squared weight norm",
+      "2": "A reward proportional to the number of training examples",
+      "3": "None of the above",
+      "4": "The test-set error"
+    }
+  },
+  {
+    "id": "P05",
+    "question": "During inference, why does a recurrent network share parameters across time steps?",
+    "options": {
+      "1": "None of the above",
+      "2": "The same transition rule is applied at each position",
+      "3": "Each token has an unrelated network",
+      "4": "Sharing ensures no information is passed from earlier positions"
+    }
+  },
+  {
+    "id": "P06",
+    "question": "In scaled dot-product attention, what does applying softmax to a row of unmasked scores produce?",
+    "options": {
+      "1": "A set of output labels",
+      "2": "A guarantee that only one key has nonzero weight",
+      "3": "None of the above",
+      "4": "Independent binary decisions for each key"
+    }
+  },
+  {
+    "id": "P07",
+    "question": "A next-token model assigns probabilities 0.4, 0.35 and 0.25 to three tokens. Under greedy decoding, which token is selected?",
+    "options": {
+      "1": "None of the above",
+      "2": "The third token",
+      "3": "A random token chosen uniformly",
+      "4": "The first token"
+    }
+  },
+  {
+    "id": "P08",
+    "question": "In image segmentation, what is the typical prediction unit?",
+    "options": {
+      "1": "A label for each pixel or spatial location",
+      "2": "One label for the entire image only",
+      "3": "A single scalar loss per dataset",
+      "4": "None of the above"
+    }
+  },
+  {
+    "id": "P09",
+    "question": "In a variational autoencoder, which quantity is typically optimized as a lower bound on log likelihood?",
+    "options": {
+      "1": "The maximum possible latent dimension",
+      "2": "None of the above",
+      "3": "The exact test-set accuracy",
+      "4": "The convolution stride"
+    }
+  },
+  {
+    "id": "P10",
+    "question": "Suppose x_noisy = x + 2 * epsilon. If the predicted epsilon is 0.5 and x_noisy is 3, what is the predicted clean x?",
+    "options": {
+      "1": "None of the above",
+      "2": "4",
+      "3": "1",
+      "4": "2"
+    }
+  }
+]
