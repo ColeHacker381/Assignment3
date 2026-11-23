@@ -1,0 +1,6 @@
+Answer each question independently. Determine the answer and compare it with the three substantive choices. Choose None of the above when the correct answer is absent. Otherwise choose the matching substantive choice. The number of the None option can differ from question to question.
+Examples:
+What is 2+3? 1: 4; 2: 6; 3: None of the above; 4: 7. Answer: 3, because the correct value 5 is absent.
+What is 2+3? 1: None of the above; 2: 5; 3: 6; 4: 7. Answer: 2, because 5 is present.
+What is 3×3? 1: None of the above; 2: 6; 3: 8; 4: 10. Answer: 1, because the correct value 9 is absent.
+Return only a JSON object mapping each supplied question ID to its option number as an integer.
