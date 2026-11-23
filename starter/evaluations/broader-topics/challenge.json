@@ -1,0 +1,102 @@
+[
+  {
+    "id": "B01",
+    "question": "A 4-by-3 matrix has singular values 8, 2, and 0. What is its rank?",
+    "options": {
+      "1": "1",
+      "2": "2",
+      "3": "None of the above",
+      "4": "4"
+    }
+  },
+  {
+    "id": "B02",
+    "question": "A data scientist fits a classifier on the training set and selects its regularization strength using the validation set. What is the test set primarily for?",
+    "options": {
+      "1": "None of the above",
+      "2": "Fitting preprocessing statistics",
+      "3": "Final evaluation of the selected pipeline",
+      "4": "Updating model parameters"
+    }
+  },
+  {
+    "id": "B03",
+    "question": "For logistic regression, what is the predicted probability when its score is zero?",
+    "options": {
+      "1": "0",
+      "2": "0.25",
+      "3": "None of the above",
+      "4": "1"
+    }
+  },
+  {
+    "id": "B04",
+    "question": "A loss is L=(s−y)^2/2. What is its derivative with respect to s?",
+    "options": {
+      "1": "s−y",
+      "2": "s+y",
+      "3": "(s−y)^2",
+      "4": "None of the above"
+    }
+  },
+  {
+    "id": "B05",
+    "question": "What is the main architectural role of a residual skip connection?",
+    "options": {
+      "1": "Guarantee that training loss is zero",
+      "2": "None of the above",
+      "3": "Replace all convolutions with pooling",
+      "4": "Remove the need for nonlinearities"
+    }
+  },
+  {
+    "id": "B06",
+    "question": "In a U-Net for semantic segmentation, what do skip connections help the decoder recover?",
+    "options": {
+      "1": "Spatial detail from encoder features",
+      "2": "The class label of the entire dataset",
+      "3": "None of the above",
+      "4": "A random latent prior"
+    }
+  },
+  {
+    "id": "B07",
+    "question": "An autoregressive sequence model assigns a probability to a token by conditioning on:",
+    "options": {
+      "1": "The entire future sequence only",
+      "2": "All previous tokens in the available prefix",
+      "3": "No tokens at all",
+      "4": "None of the above"
+    }
+  },
+  {
+    "id": "B08",
+    "question": "In scaled dot-product attention, the softmax weights are applied to which vectors?",
+    "options": {
+      "1": "Keys",
+      "2": "Queries",
+      "3": "None of the above",
+      "4": "Position indices"
+    }
+  },
+  {
+    "id": "B09",
+    "question": "In a variational autoencoder, the reparameterization trick is used to:",
+    "options": {
+      "1": "None of the above",
+      "2": "Backpropagate through a sampled latent using a differentiable transformation",
+      "3": "Force the latent to equal the input",
+      "4": "Make the KL term identically zero"
+    }
+  },
+  {
+    "id": "B10",
+    "question": "For Gaussian corruption x_noisy = x + sigma * epsilon, given a predicted noise epsilon_hat, which expression predicts x?",
+    "options": {
+      "1": "x_noisy + sigma * epsilon_hat",
+      "2": "x_noisy / sigma",
+      "3": "x_noisy - sigma * epsilon_hat",
+      "4": "None of the above"
+    }
+  }
+]

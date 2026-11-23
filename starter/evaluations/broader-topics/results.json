@@ -1,0 +1,242 @@
+[
+  {
+    "name": "standard-current",
+    "prompt_tokens": 25,
+    "correct": 10,
+    "total": 10,
+    "answers": {
+      "B01": 2,
+      "B02": 3,
+      "B03": 3,
+      "B04": 1,
+      "B05": 2,
+      "B06": 1,
+      "B07": 2,
+      "B08": 3,
+      "B09": 2,
+      "B10": 3
+    },
+    "comparison": [
+      {
+        "id": "B01",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B02",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "id": "B03",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "id": "B04",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "B05",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B06",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "B07",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B08",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "id": "B09",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B10",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "name": "challenge-current",
+    "prompt_tokens": 74,
+    "correct": 7,
+    "total": 10,
+    "answers": {
+      "B01": 2,
+      "B02": 3,
+      "B03": 4,
+      "B04": 1,
+      "B05": 2,
+      "B06": 1,
+      "B07": 2,
+      "B08": 1,
+      "B09": 2,
+      "B10": 4
+    },
+    "comparison": [
+      {
+        "id": "B01",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B02",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "id": "B03",
+        "expected": 3,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "B04",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "B05",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B06",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "B07",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B08",
+        "expected": 3,
+        "predicted": 1,
+        "match": false
+      },
+      {
+        "id": "B09",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B10",
+        "expected": 3,
+        "predicted": 4,
+        "match": false
+      }
+    ]
+  },
+  {
+    "name": "challenge-compact-reference",
+    "prompt_tokens": 191,
+    "correct": 8,
+    "total": 10,
+    "answers": {
+      "B01": 2,
+      "B02": 3,
+      "B03": 4,
+      "B04": 1,
+      "B05": 2,
+      "B06": 1,
+      "B07": 2,
+      "B08": 2,
+      "B09": 2,
+      "B10": 3
+    },
+    "comparison": [
+      {
+        "id": "B01",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B02",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "id": "B03",
+        "expected": 3,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "B04",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "B05",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B06",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "B07",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B08",
+        "expected": 3,
+        "predicted": 2,
+        "match": false
+      },
+      {
+        "id": "B09",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "B10",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  }
+]
