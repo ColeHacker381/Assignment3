@@ -1,0 +1,162 @@
+[
+  {
+    "batch": "standard",
+    "prompt_tokens": 144,
+    "correct": 9,
+    "total": 10,
+    "answers": {
+      "P01": 1,
+      "P02": 2,
+      "P03": 4,
+      "P04": 4,
+      "P05": 1,
+      "P06": 2,
+      "P07": 3,
+      "P08": 4,
+      "P09": 1,
+      "P10": 2
+    },
+    "comparison": [
+      {
+        "id": "P01",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "P02",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "P03",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      },
+      {
+        "id": "P04",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      },
+      {
+        "id": "P05",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "P06",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "P07",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "id": "P08",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      },
+      {
+        "id": "P09",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "P10",
+        "expected": 3,
+        "predicted": 2,
+        "match": false
+      }
+    ]
+  },
+  {
+    "batch": "challenge",
+    "prompt_tokens": 191,
+    "correct": 9,
+    "total": 10,
+    "answers": {
+      "P01": 1,
+      "P02": 2,
+      "P03": 4,
+      "P04": 4,
+      "P05": 1,
+      "P06": 2,
+      "P07": 3,
+      "P08": 4,
+      "P09": 1,
+      "P10": 4
+    },
+    "comparison": [
+      {
+        "id": "P01",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "P02",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "P03",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      },
+      {
+        "id": "P04",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      },
+      {
+        "id": "P05",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "P06",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "P07",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "id": "P08",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      },
+      {
+        "id": "P09",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "P10",
+        "expected": 3,
+        "predicted": 4,
+        "match": false
+      }
+    ]
+  }
+]

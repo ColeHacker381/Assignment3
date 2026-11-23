@@ -1,0 +1,7 @@
+# Post-selection course check
+
+These ten self-authored questions and their challenge versions were written after selecting the prompts. They cover PCA, nearest neighbors, optimization, regularization, recurrent models, attention, decoding, segmentation, VAEs, and diffusion. They were not used to choose the prompts, but their author had seen the prompts and prior results. The questions are not independently sourced or blinded and do not represent the hidden exam.
+
+The correct answers are residual squared length 9, nearest-neighbor difficulty in high dimensions, unchanged parameters at zero gradient, a squared weight-norm penalty, a shared recurrent transition, attention weights summing to one over eligible keys, the highest-probability token for greedy decoding, a label per pixel or spatial location, the ELBO, and clean value 2. The keys give the corresponding option numbers. The challenge version replaces the correct option with None for P02, P06 and P09, and replaces a distractor in the other questions. Three of ten cases have None as the correct answer.
+
+Each prompt was run once with the supplied pinned model, runtime and generation settings. The 144-token standard prompt scored 9/10, missing P10. The 191-token challenge prompt scored 9/10, also missing P10, and correctly selected None on all three applicable questions with no false None selections. Detailed outputs are in `results.json`. The two batches share stems and are not independent samples. These scores do not establish final exam performance.
