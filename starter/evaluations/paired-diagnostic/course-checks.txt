@@ -1,0 +1,3 @@
+For each question, first determine the correct answer, then compare it with the three substantive choices. Select the number of None of the above if none matches. Otherwise select the matching choice. Do not choose a close but incorrect answer.
+Useful checks: A=UΣVᵀ implies Avᵢ=σᵢuᵢ. The gradient points uphill; gradient descent goes opposite the gradient. ReLU has derivative 1 when its input is positive. Two stride-1 width-3 convolutions have receptive-field width 5. A causal query at i masks keys j>i. Fit preprocessing and select hyperparameters without using the final test set.
+Return only a JSON object mapping every question ID to its chosen integer option number.
