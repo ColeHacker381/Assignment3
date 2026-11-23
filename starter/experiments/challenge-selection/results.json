@@ -1,0 +1,326 @@
+[
+  {
+    "prompt": "derive-first",
+    "batch": "supplemental",
+    "correct": 6,
+    "total": 10,
+    "tokens": 74,
+    "answers": {
+      "C01": 2,
+      "C02": 4,
+      "C03": 3,
+      "C04": 4,
+      "C05": 2,
+      "C06": 2,
+      "C07": 4,
+      "C08": 4,
+      "C09": 2,
+      "C10": 1
+    },
+    "comparison": [
+      {
+        "id": "C01",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "C02",
+        "expected": 1,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "C03",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "id": "C04",
+        "expected": 3,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "C05",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "C06",
+        "expected": 3,
+        "predicted": 2,
+        "match": false
+      },
+      {
+        "id": "C07",
+        "expected": 3,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "C08",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      },
+      {
+        "id": "C09",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "C10",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "prompt": "derive-first",
+    "batch": "released",
+    "correct": 7,
+    "total": 10,
+    "tokens": 74,
+    "answers": {
+      "Q01": 2,
+      "Q02": 4,
+      "Q03": 1,
+      "Q04": 2,
+      "Q05": 2,
+      "Q06": 4,
+      "Q07": 4,
+      "Q08": 2,
+      "Q09": 3,
+      "Q10": 3
+    },
+    "comparison": [
+      {
+        "id": "Q01",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "Q02",
+        "expected": 1,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "Q03",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "Q04",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "Q05",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "Q06",
+        "expected": 2,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "Q07",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      },
+      {
+        "id": "Q08",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "Q09",
+        "expected": 2,
+        "predicted": 3,
+        "match": false
+      },
+      {
+        "id": "Q10",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "prompt": "contrast-example",
+    "batch": "supplemental",
+    "correct": 6,
+    "total": 10,
+    "tokens": 128,
+    "answers": {
+      "C01": 2,
+      "C02": 4,
+      "C03": 3,
+      "C04": 2,
+      "C05": 2,
+      "C06": 4,
+      "C07": 4,
+      "C08": 4,
+      "C09": 2,
+      "C10": 1
+    },
+    "comparison": [
+      {
+        "id": "C01",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "C02",
+        "expected": 1,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "C03",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "id": "C04",
+        "expected": 3,
+        "predicted": 2,
+        "match": false
+      },
+      {
+        "id": "C05",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "C06",
+        "expected": 3,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "C07",
+        "expected": 3,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "C08",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      },
+      {
+        "id": "C09",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "C10",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "prompt": "contrast-example",
+    "batch": "released",
+    "correct": 7,
+    "total": 10,
+    "tokens": 128,
+    "answers": {
+      "Q01": 2,
+      "Q02": 4,
+      "Q03": 1,
+      "Q04": 2,
+      "Q05": 2,
+      "Q06": 3,
+      "Q07": 4,
+      "Q08": 2,
+      "Q09": 3,
+      "Q10": 3
+    },
+    "comparison": [
+      {
+        "id": "Q01",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "Q02",
+        "expected": 1,
+        "predicted": 4,
+        "match": false
+      },
+      {
+        "id": "Q03",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "id": "Q04",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "Q05",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "Q06",
+        "expected": 2,
+        "predicted": 3,
+        "match": false
+      },
+      {
+        "id": "Q07",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      },
+      {
+        "id": "Q08",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "id": "Q09",
+        "expected": 2,
+        "predicted": 3,
+        "match": false
+      },
+      {
+        "id": "Q10",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  }
+]
