@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Q01",
+    "question": "Let $f(1)=2$, $f(2)=4$, $f(3)=1$, and $f(4)=3$. What is $\\arg\\max_{i\\in\\{1,2,3,4\\}} f(i)$?",
+    "options": {
+      "1": "$1$",
+      "2": "$2$",
+      "3": "$3$",
+      "4": "$4$"
+    }
+  },
+  {
+    "id": "Q02",
+    "question": "Vibe coding judges agent work only by visible output; line-by-line review validates every change by hand. Which practice keeps much of an agent's speed while managing reliability?",
+    "options": {
+      "1": "Divide the system into modules whose behavior tests and checks can verify",
+      "2": "Switch to the most capable available model",
+      "3": "Accept changes once the application starts without errors",
+      "4": "Ask the agent to rate its confidence in each change"
+    }
+  },
+  {
+    "id": "Q03",
+    "question": "A matrix $A\\in\\mathbb{R}^{3\\times3}$ has SVD $A=U\\Sigma V^T$ with $\\Sigma=\\operatorname{diag}(6,2,0)$. Let $\\boldsymbol{u}_j$ and $\\boldsymbol{v}_j$ be the $j$th columns of $U$ and $V$. What is $A\\boldsymbol{v}_2$?",
+    "options": {
+      "1": "$2\\boldsymbol{u}_2$",
+      "2": "$6\\boldsymbol{u}_1$",
+      "3": "$\\boldsymbol{0}$",
+      "4": "$2\\boldsymbol{v}_2$"
+    }
+  },
+  {
+    "id": "Q04",
+    "question": "Centered data $X$ have $\\|X\\|_F^2=50$. Two candidate matrices $W_a$ and $W_b$, each with orthonormal columns, retain $\\|XW_a\\|_F^2=38$ and $\\|XW_b\\|_F^2=41$. What is the smaller of their reconstruction errors $\\|X-XW_aW_a^T\\|_F^2$ and $\\|X-XW_bW_b^T\\|_F^2$?",
+    "options": {
+      "1": "$3$",
+      "2": "$9$",
+      "3": "$12$",
+      "4": "$41$"
+    }
+  },
+  {
+    "id": "Q05",
+    "question": "KNN estimates $\\eta(\\boldsymbol{x})=\\Pr(\\mathrm{y}=1\\mid\\mathbf{x}=\\boldsymbol{x})$ from the outcomes of training inputs near $\\boldsymbol{x}$. Which assumption makes those nearby outcomes informative?",
+    "options": {
+      "1": "$\\eta(\\boldsymbol{x})$ is close to $0$ or $1$ everywhere.",
+      "2": "$\\eta$ changes slowly as $\\boldsymbol{x}$ changes.",
+      "3": "The training inputs are spread uniformly over the input space.",
+      "4": "Each outcome is a deterministic function of $\\boldsymbol{x}$."
+    }
+  },
+  {
+    "id": "Q06",
+    "question": "A convex objective $J$ has $J(\\boldsymbol{u})=4$ and $J(\\boldsymbol{v})=10$. Using only these two values and the definition of convexity, what is the smallest upper bound that can be guaranteed for $J(0.75\\,\\boldsymbol{u}+0.25\\,\\boldsymbol{v})$?",
+    "options": {
+      "1": "$4$",
+      "2": "$5.5$",
+      "3": "$7$",
+      "4": "$8.5$"
+    }
+  },
+  {
+    "id": "Q07",
+    "question": "A one-example network computes $z=wx$, $h=\\operatorname{ReLU}(z)$, $s=vh$, and loss $L=\\tfrac12(s-y)^2$, where $\\operatorname{ReLU}(z)=\\max(0,z)$. With $w=2$, $x=1.5$, $v=-1$, and $y=1$, what is $\\partial L/\\partial w$?",
+    "options": {
+      "1": "$-12$",
+      "2": "$-6$",
+      "3": "$4$",
+      "4": "$6$"
+    }
+  },
+  {
+    "id": "Q08",
+    "question": "Three convolutional layers, each with $3\\times3$ kernels, stride $1$, and padding $1$, are stacked with ReLU between them. One output location of the third layer can depend on how large a region of the original input?",
+    "options": {
+      "1": "$3\\times3$",
+      "2": "$7\\times7$",
+      "3": "$9\\times9$",
+      "4": "$27\\times27$"
+    }
+  },
+  {
+    "id": "Q09",
+    "question": "For next-token prediction, a causal mask is added to the $L\\times L$ attention score matrix $S$ before the softmax, where entry $S_{\\ell j}$ scores how much query position $\\ell$ attends to position $j$. Which entries receive $-\\infty$?",
+    "options": {
+      "1": "Every entry except those with $j=\\ell$",
+      "2": "Entries with $j>\\ell$",
+      "3": "Entries with $j<\\ell$",
+      "4": "Entries with $j=\\ell$"
+    }
+  },
+  {
+    "id": "Q10",
+    "question": "Top-$k$ sampling keeps only the $k$ most likely tokens, renormalizes their probabilities to sum to $1$, and samples. The next-token probabilities are A $0.6$, B $0.3$, and C $0.1$. With $k=2$, what is the probability of sampling A?",
+    "options": {
+      "1": "$0.5$",
+      "2": "$0.6$",
+      "3": "$2/3$",
+      "4": "$0.9$"
+    }
+  }
+]

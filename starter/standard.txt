@@ -1,0 +1,1 @@
+Answer each multiple-choice question by selecting the single best option. Return the option number for each supplied question ID as JSON.
