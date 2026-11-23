@@ -1,9 +1,11 @@
 # Approach
 
-These initial baselines use short general instructions to select the best answer and return JSON. The challenge prompt explicitly allows “None of the above.” Neither prompt includes course reference material. The next development step can use the course inventory to design and compare more informative prompts.
+The current standard and challenge prompts are short baselines that ask for the best answer and a JSON mapping. The challenge baseline explicitly permits “None of the above.” Neither baseline contains course material. These are provisional candidates pending further evaluation.
 
-## Released practice results
+## Development and evidence
 
-The supplied local runner used the pinned Qwen3.5-4B Q4_K_M model and llama.cpp runtime with the assignment settings. On one released ten-question batch per setting, the standard baseline scored 7/10 with 25 prompt tokens, and the challenge baseline scored 6/10 with 39 prompt tokens. Both produced valid answer mappings. The standard errors were Q04, Q06, and Q09. The challenge errors were Q02, Q06, Q07, and Q09.
+The course inventory in `../course-materials.md` covers the dynamic materials through November 11 and informed a separate pair of experimental prompts. Those prompts combine a concise reference on PCA, prediction, optimization, neural networks, sequences, generative models and AI-assisted development with setting-specific answer instructions. They are saved under `experiments/course-reference-v1/` for reproducibility.
 
-These are measured results on the released examples only, not estimates of hidden-set performance. The two practice batches share underlying questions, so their scores are not independent estimates. This brief and the prompts are preliminary and need further development before submission.
+The supplied runner used the pinned Qwen3.5-4B Q4_K_M model and llama.cpp runtime with the assignment settings. On the released ten-question batch per setting, the standard baseline scored 7/10 with 25 prompt tokens and the challenge baseline scored 6/10 with 39 prompt tokens. The course-reference experiment scored 6/10 with 662 prompt tokens on standard and 2/10 with 679 prompt tokens on challenge. All four runs returned valid answer mappings. The challenge experiment selected option 1 for all ten questions. On this limited evidence the current files retain the baseline prompts, while the experiment remains available for further study.
+
+These measurements use the released examples only. The two batches share underlying questions, and repeated testing on them can overfit them. Scores do not establish hidden-set performance. This brief is preliminary and needs further development and broader evaluation before submission.
